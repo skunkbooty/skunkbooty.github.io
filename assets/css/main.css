@@ -223,6 +223,7 @@ input, select, textarea {
 		}
 
 	strong, b {
+		color: #ffffff;
 		font-weight: 300;
 	}
 
@@ -235,7 +236,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #a0a0a1;;
+		color: #ffffff;
 		font-weight: 300;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
@@ -1549,6 +1550,13 @@ input, select, textarea {
 							background-color: #242629;
 						}
 
+	@media screen and (max-width: 980px) {
+		.logo-container {
+			text-align:center;
+			padding-left:0!important;
+		}
+	}
+
 	@media screen and (max-width: 736px) {
 
 		body {
@@ -2047,3 +2055,11 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+
+/* Peter's added stylesheet*/
+
+.logo-container {
+	padding-left:100px;
+	background-color:white;
+}
