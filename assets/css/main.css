@@ -2063,3 +2063,15 @@ input, select, textarea {
 	padding-left:100px;
 	background-color:white;
 }
+
+#cta {
+	padding: 40px 20px;
+	text-align:center;
+	font-size:24px;
+}
+
+.vert-align-children {
+	display: flex;
+flex-direction: column;
+justify-content: center;
+}
