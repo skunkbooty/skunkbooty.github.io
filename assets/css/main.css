@@ -491,7 +491,37 @@ input, select, textarea {
 			pointer-events: none;
 			opacity: 0.35;
 		}
-
+/* Underline From Left */
+.multiimage {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.multiimage:before {
+  content: "";
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #97ffcb;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.multiimage:hover:before,
+.multiimage:focus:before,
+.multiimage:active:before {
+  right: 0;
+}
 /* Form */
 
 	form {
