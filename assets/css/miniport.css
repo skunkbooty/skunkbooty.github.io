@@ -136,7 +136,7 @@ body, input, textarea, select {
 }
 .miniport-container b, .miniport-container strong {
   font-weight: 600;
-  color: #3e3e3e;
+  color: white;
 }
 .miniport-container i, .miniport-container em {
   font-style: italic;
@@ -157,7 +157,7 @@ body, input, textarea, select {
   font-style: italic;
 }
 .miniport-container h1, .miniport-container h2, .miniport-container h3, .miniport-container h4, .miniport-container h5, .miniport-container h6 {
-  color: #3e3e3e;
+  color: white;
   margin: 0 0 0.75em 0;
 }
 .miniport-container h1 a, .miniport-container h2 a, .miniport-container h3 a, .miniport-container h4 a, .miniport-container h5 a, .miniport-container h6 a {
@@ -1570,7 +1570,7 @@ body, input, textarea, select {
 }
 .miniport-container .wrapper.style1 {
   background-image: none;
-  background-color: #fff;
+  background-color: transparent;
 }
 .miniport-container .wrapper.style2 {
   background-color: #fafafa;
