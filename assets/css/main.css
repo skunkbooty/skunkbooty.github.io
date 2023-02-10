@@ -2075,3 +2075,37 @@ input, select, textarea {
 flex-direction: column;
 justify-content: center;
 }
+
+.poptrox-popup iframe {
+	z-index: 0!important;
+}
+
+.poptrox-popup .caption {
+	top:0;
+	height:150px;
+	opacity:0;
+	background-image: -moz-linear-gradient(
+    to bottom,
+    rgba(16, 16, 16, 0.9) 25%,
+    rgba(16, 16, 16, 0) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(16, 16, 16, 0.9) 25%,
+    rgba(16, 16, 16, 0) 100%
+  );
+  background-image: -ms-linear-gradient(
+    to bottom,
+    rgba(16, 16, 16, 0.9) 25%,
+    rgba(16, 16, 16, 0) 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    rgba(16, 16, 16, 0.9) 25%,
+    rgba(16, 16, 16, 0) 100%
+  );
+}
+
+.caption:hover {
+	opacity:1;
+}
